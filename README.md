@@ -32,13 +32,10 @@ Make sure your code works before submitting it :D
 - **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.
 - Also, be polite with the reviewers - they will be ALWAYS polite to you.
 
-## Our Contributors
-
-[CONTRIBUTORS.md](https://github.com/TesseractCoding/NeoAlgo/blob/master/CONTRIBUTORS.md)
 
 ## Code of Conduct
 
-You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
+You can find our Code of Conduct 
 
 ## License
 
