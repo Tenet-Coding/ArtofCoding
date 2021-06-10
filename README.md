@@ -9,19 +9,9 @@ The goal of this project is to have in a single place all possible algorithms an
 
 Our content is divided by programming language. Please create an issue if you wish to add code in a language that we don't currently have here. **Do not create folders in your submissions, unless specifically told to do so.**
 
-
-- [C](/C/README.md)
-- [C-Plus-Plus](/C-Plus-Plus/README.md)
-- [C-Sharp](/C-Sharp/README.md)
-- [Dart](/Dart/README.md)
-- [Go](/Go/README.md)
-- [JavaScript](/JavaScript/README.md)
-- [Java](/Java/README.md)
-- [Julia](/Julia/README.md)
 - [Python](/Python/README.md)
-- [Q-Sharp](/Q-Sharp/README.md)
 
-## Contributing Guidelines
+# Contributing Guidelines
 
 - **Plagiarism is strictly not allowed**. Any work that is found to be suspicious of plagiarized work will not be merged.
 - Issues will be assigned on a _first come, first serve_ basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit.
