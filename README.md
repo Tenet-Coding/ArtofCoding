@@ -35,7 +35,7 @@ Make sure your code works before submitting it :D
 
 ## Code of Conduct
 
-You can find our Code of Conduct 
+You can find our Code of Conduct[here](/CODE_OF_CONDUCT.md)
 
 ## License
 
