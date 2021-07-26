@@ -30,7 +30,6 @@ void printList(){
 }
 
 int main(){
-
     head = NULL; // Initially head pointer address is NULL
 
     std::cout<<"How many numbers would you insert ? ";
@@ -44,5 +43,4 @@ int main(){
         insert(x);
         printList();
     }
-
 }
