@@ -2,20 +2,6 @@
 This Program focuses on Creating a Linked List and traversing it for further operations to be done.
 To Create a Linked List We first Create the Class named Node which stores Data and another Pointer Address Node that links to next Node.
 If there is no next Node we declare the pointer address as NULL.
-
-insert Function allows you to insert the Nodes in the linked list.
-    Time Complexity : O(1) We add elements at head so we can do this in constant time operation
-    Space Complexity : O(N) The space taken by List is depending on N, the number of nodes present in the list.
-
-printList Function prints the list by traversing the Nodes.
-    Time Complexity : O(N) We need to itterate the number of nodes present in order to print them all
-    Space Complexity : O(N)
-    
-Sample Input : 
-    5
-    2 4 7 1 5
-Output :
-    5 1 7 4 2
 */
 #include<iostream>
 using namespace std;
@@ -64,3 +50,17 @@ int main(){
         printList();
     }
 }
+/*insert Function allows you to insert the Nodes in the linked list.
+    Time Complexity : O(1) We add elements at head so we can do this in constant time operation
+    Space Complexity : O(N) The space taken by List is depending on N, the number of nodes present in the list.
+
+printList Function prints the list by traversing the Nodes.
+    Time Complexity : O(N) We need to itterate the number of nodes present in order to print them all
+    Space Complexity : O(N)
+    
+Sample Input : 
+    5
+    2 4 7 1 5
+Output :
+    5 1 7 4 2
+*/

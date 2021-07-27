@@ -1,19 +1,4 @@
-/*
-Delete a Node at a given position. 
-The Delete Element function has ,
-    Time Complexity : O(N) In Worst case we will be traversing till the end of the Linked List
-    Space Complexity : O(1) We only need one Temp Node to be stored for pointing it to the node to be deleted.
-
-Sample Input :
-    4
-    2 1
-    3 2
-    4 1
-    5 2
-    2
-Output :
-    4 2 3
-*/
+//Delete a Node at a given position. 
 #include<iostream>
 using namespace std;
 
@@ -90,3 +75,17 @@ int main(){
     deleteElement(dlt_at);
     printList();
 }
+/*
+The Delete Element function has ,
+    Time Complexity : O(N) In Worst case we will be traversing till the end of the Linked List
+    Space Complexity : O(1) We only need one Temp Node to be stored for pointing it to the node to be deleted.
+
+Sample Input :
+    2 1
+    3 2
+    4 1
+    5 2
+    2
+Output :
+    4 2 3
+*/

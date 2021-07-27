@@ -1,17 +1,6 @@
 /*
     Insert the Node at the Nth Position
 The function Insert takes two arguments in it. One the data field and other the position at which the Node is to be inserted.
-    Time Complexity : O(N) We need to iterate the whole loop of N elements to enter N elements.
-    Space Complexity : O(N) We have to store N elements in our memory space (Heap) .
-Sample Input : 
-    5
-    2 1
-    3 2
-    4 1
-    7 1
-    8 2
-Sample Output :
-    7 8 4 2 3
 */
 #include<iostream>
 using namespace std;
@@ -66,3 +55,16 @@ int main(){
     } 
     printList(); 
 }
+/*
+ Time Complexity : O(N) We need to iterate the whole loop of N elements to enter N elements.
+ Space Complexity : O(N) We have to store N elements in our memory space (Heap) .
+Sample Input : 
+    5
+    2 1
+    3 2
+    4 1
+    7 1
+    8 2
+Sample Output :
+    7 8 4 2 3
+*/

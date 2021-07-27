@@ -1,32 +1,6 @@
 /*
 Stacks are LIFO (Last In First Out) type of Data Structure. You can imagine them same as books submitted to teacher in school.
 The basic operations that can be done with Stack are Push, Pop, Top and isEmpty.
-
-Push puts the data or value onto the Stack always on its top.
-    Time Complexity : O(1) We can always add a value in constant time. Always on Top.
-    Space Complexity : O(N) To store the N elements on the Stack present at any moment.
-Pop function removes the element on the Top of the Stack.
-    Time Complexity : O(1) 
-    Space Complexity: O(N)
-Top function returns the topmost element present on the stack.
-    Time Complexity : O(1) 
-    Space Complexity: O(N)
-isEmpty function returns a boolean depending if the stack is empty or not.
-    Time Complexity : O(1) 
-    Space Complexity: O(N)
-
-Sample Input :
-    5
-    4 5 7 8 3
-Output :
-    Your Stack is Currently :
-    4 5 7 8 3 
-    After Poping it changes to :
-    4 5 7 8 
-    The Topmost element on Stack is :
-    8
-    False
-    False
 */
 #include<iostream>
 using namespace std;
@@ -92,3 +66,30 @@ int main(){
    Pop();
    isEmpty();
 }
+/*
+Push puts the data or value onto the Stack always on its top.
+    Time Complexity : O(1) We can always add a value in constant time. Always on Top.
+    Space Complexity : O(N) To store the N elements on the Stack present at any moment.
+Pop function removes the element on the Top of the Stack.
+    Time Complexity : O(1) 
+    Space Complexity: O(N)
+Top function returns the topmost element present on the stack.
+    Time Complexity : O(1) 
+    Space Complexity: O(N)
+isEmpty function returns a boolean depending if the stack is empty or not.
+    Time Complexity : O(1) 
+    Space Complexity: O(N)
+
+Sample Input :
+    5
+    4 5 7 8 3
+Output :
+    Your Stack is Currently :
+    4 5 7 8 3 
+    After Poping it changes to :
+    4 5 7 8 
+    The Topmost element on Stack is :
+    8
+    False
+    False
+*/

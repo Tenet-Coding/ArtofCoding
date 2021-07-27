@@ -1,19 +1,5 @@
 /*
 To Reverse the List we need to change the address links with each iterations and change the head position as the last node present in out List.
-    Time Complexity : O(N) because we irrate till the end of list
-    Space Complexity : O(N) because we store all node addresses 
-Sample Input :
-     5
-    2 1
-    3 2
-    4 1
-    7 1
-    8 2
-Output :
-    Your List is : 
-    7 8 4 2 3
-    Your List in Reversed Order is :
-    3 2 4 8 7
 */
 #include<iostream>
 using namespace std;
@@ -91,3 +77,19 @@ int main(){
     std::cout<<"Your List in Reversed Order is "<<endl;
     printReverseList(); 
 }
+/* 
+    Time Complexity : O(N) because we irrate till the end of list
+    Space Complexity : O(N) because we store all node addresses 
+Sample Input :
+     5
+    2 1
+    3 2
+    4 1
+    7 1
+    8 2
+Output :
+    Your List is : 
+    7 8 4 2 3
+    Your List in Reversed Order is :
+    3 2 4 8 7
+*/

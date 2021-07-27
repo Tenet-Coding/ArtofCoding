@@ -1,15 +1,5 @@
 /*
 In this program you need to print the List by Recursion and this is done by printing the data with passing of recurrision call to next funtion.
-Sample Input :
-    5
-    2 1
-    3 2
-    4 1
-    7 1
-    8 2  
-Output :
-    Printing your List by Recurrsion : 
-    7 8 4 2 3
 */
 #include<iostream>
 using namespace std;
@@ -72,3 +62,18 @@ int main(){
     std::cout<<"Printing your List by Recurrsion : "<<endl;
     recursivePrint(head);
 }
+/*
+Time Complexity : O(N)
+Space Complexity : O(N)
+
+Sample Input :
+    5
+    2 1
+    3 2
+    4 1
+    7 1
+    8 2  
+Output :
+    Printing your List by Recurrsion : 
+    7 8 4 2 3
+*/
