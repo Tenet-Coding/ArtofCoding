@@ -1,3 +1,18 @@
+/*
+    Insert the Node at the Nth Position
+The function Insert takes two arguments in it. One the data field and other the position at which the Node is to be inserted.
+    Time Complexity : O(N) We need to iterate the whole loop of N elements to enter N elements.
+    Space Complexity : O(N) We have to store N elements in our memory space (Heap) .
+Sample Input : 
+    5
+    2 1
+    3 2
+    4 1
+    7 1
+    8 2
+Sample Output :
+    7 8 4 2 3
+*/
 #include<iostream>
 using namespace std;
 
@@ -11,8 +26,7 @@ Node* head; //Global Head pointer that stores head address.
 void Insert(int data, int pos){
     Node* temp = new Node(); // Create a Node that stores the element to be inserted
     temp->data = data;
-    temp->next = NULL; // Intially let it point to NULL
-    
+    temp->next = NULL; // Intially let it point to NULL  
     //If you want to insert element at pos 1 that is head position.
     if(pos == 1){
         temp->next = head;  // Our created Node points to head element 
@@ -38,11 +52,17 @@ void printList(){
 }
 
 int main(){
-    head = NULL; // Empty List
-    // Insert(number,position)
-    Insert(2,1); //List : 2
-    Insert(3,2); //List : 2,3
-    Insert(4,1); //List : 4,2,3
-    Insert(5,2); //List : 4,5,2,3
+    head = NULL;
+    int n;
+    std::cout<<"Enter the Number of Element you want to Insert : ";
+    std::cin>>n;
+    for(int i=0; i<n; i++){
+        int data,position;
+        std::cout<<"Enter the data you want to enter : ";
+        std::cin>>data;
+        std::cout<<"Enter the position where you want to add this Node : ";
+        std::cin>>position;
+        Insert(data,position);
+    } 
     printList(); 
 }

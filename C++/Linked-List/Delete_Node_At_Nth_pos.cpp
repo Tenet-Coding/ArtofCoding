@@ -1,3 +1,19 @@
+/*
+Delete a Node at a given position. 
+The Delete Element function has ,
+    Time Complexity : O(N) In Worst case we will be traversing till the end of the Linked List
+    Space Complexity : O(1) We only need one Temp Node to be stored for pointing it to the node to be deleted.
+
+Sample Input :
+    4
+    2 1
+    3 2
+    4 1
+    5 2
+    2
+Output :
+    4 2 3
+*/
 #include<iostream>
 using namespace std;
 
@@ -19,7 +35,6 @@ void deleteElement(int n){
     for(int i=0; i<n-2; i++){
         temp = temp->next;
     }
-
     // link node to be deleted from (n-1)th Node to n+1)th Node
     Node* prev = temp->next; 
     temp->next = prev->next;
@@ -56,13 +71,19 @@ void printList(){
 }
 
 int main(){
-    head = NULL; // Empty List
-    // Insert(number,position)
-    Insert(2,1); //List : 2
-    Insert(3,2); //List : 2,3
-    Insert(4,1); //List : 4,2,3
-    Insert(5,2); //List : 4,5,2,3
-    printList(); 
+    head = NULL;
+    int n;
+    std::cout<<"Enter the Number of Element you want to Insert : ";
+    std::cin>>n;
+    for(int i=0; i<n; i++){
+        int data,position;
+        std::cout<<"Enter the data you want to enter : ";
+        std::cin>>data;
+        std::cout<<"Enter the position where you want to add this Node : ";
+        std::cin>>position;
+        Insert(data,position);
+    } 
+    
     int dlt_at;
     std::cout<<"Enter the position where you want deletion : ";
     std::cin>>dlt_at;

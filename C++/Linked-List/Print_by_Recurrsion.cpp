@@ -1,3 +1,16 @@
+/*
+In this program you need to print the List by Recursion and this is done by printing the data with passing of recurrision call to next funtion.
+Sample Input :
+    5
+    2 1
+    3 2
+    4 1
+    7 1
+    8 2  
+Output :
+    Printing your List by Recurrsion : 
+    7 8 4 2 3
+*/
 #include<iostream>
 using namespace std;
 
@@ -6,7 +19,6 @@ class Node{
     int data; 
     Node* next;
 };
-
 Node* head; 
 
 void recursivePrint(Node* temp){
@@ -17,11 +29,9 @@ void recursivePrint(Node* temp){
     std::cout<< temp->data <<" ";
     recursivePrint(temp->next);
     /*
-
     The same code can be used to print the Reversed Linked List
     in the above two lines just change the order of Recursive call
     and Printing the data.
-
     >    recursivePrint(temp->next);
     >    std::cout<< temp->data <<" ";
 
@@ -47,11 +57,18 @@ void Insert(int data, int pos){
 }
 
 int main(){
-    head = NULL; // Empty List
-    // Insert(number,position)
-    Insert(2,1); //List : 2
-    Insert(3,2); //List : 2,3
-    Insert(4,1); //List : 4,2,3
-    Insert(5,2); //List : 4,5,2,3
+    head = NULL;
+    int n;
+    std::cout<<"Enter the Number of Element you want to Insert : ";
+    std::cin>>n;
+    for(int i=0; i<n; i++){
+        int data,position;
+        std::cout<<"Enter the data you want to enter : ";
+        std::cin>>data;
+        std::cout<<"Enter the position where you want to add this Node : ";
+        std::cin>>position;
+        Insert(data,position);
+    } 
+    std::cout<<"Printing your List by Recurrsion : "<<endl;
     recursivePrint(head);
 }
