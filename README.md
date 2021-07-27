@@ -9,7 +9,8 @@ The goal of this project is to have in a single place all possible algorithms an
 
 Our content is divided by programming language. Please create an issue if you wish to add code in a language that we don't currently have here. **Do not create folders in your submissions, unless specifically told to do so.**
 
-- [Python](/Python/README.md)
+- [Python](/Python/)
+- [C++](/C++/)
 
 # Contributing Guidelines
 
