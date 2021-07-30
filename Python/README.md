@@ -2,11 +2,11 @@
 
 ## Array 
 
-- [Array Rotation](/Array/ArrayRolation.py)
-- [Merge Interval](/Array/merge_interval.py)
+- [Array Rotation](Array/ArrayRolation.py)
+- [Merge Interval](Array/merge_interval.py)
 
 ## Competitive Programming
-- [Climbing the leaderboard ](/Cp/climbing-the-leaderboard.py)
+- [Climbing the leaderboard ](Cp/climbing-the-leaderboard.py)
  
 ## Dynamic Programming
 
