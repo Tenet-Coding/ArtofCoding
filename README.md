@@ -1,5 +1,5 @@
 # ArtofCoding
-Bringing all Data Structures and Algorithms under one Roof ⚡
+All the important concepts associated with Data Structures and Algorithms. It's just not about the collection.⚡
 
 ## Overview
 
