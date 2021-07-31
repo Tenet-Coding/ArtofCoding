@@ -20,9 +20,9 @@
 - [Stack by Linked List](Stack/Stack_by_Linked_List.cpp)
 
 ## Binary Tree
-- [Binary Search Tree](Binary Tree/Binary_Search_Tree.cpp)
-- [Creating Binary Tree](Binary Tree/Creating_Binary_Tree.cpp)
-- [Height of BST](Binary Tree/Height_of_BST.cpp)
-- [Min Max Element in BST](Binary Tree/Min_Max_Element_in_BST.cpp)
-- [Level Order Traversal](Binary Tree/Level_Order_Traversal.cpp)
-- [Depth Order Traversal](Binary Tree/Depth_Order_Traversal.cpp)
+- [Binary Search Tree](Binary-Tree/Binary_Search_Tree.cpp)
+- [Creating Binary Tree](Binary-Tree/Creating_Binary_Tree.cpp)
+- [Height of BST](Binary-Tree/Height_of_BST.cpp)
+- [Min Max Element in BST](Binary-Tree/Min_Max_Element_in_BST.cpp)
+- [Level Order Traversal](Binary-Tree/Level_Order_Traversal.cpp)
+- [Depth Order Traversal](Binary-Tree/Depth_Order_Traversal.cpp)
