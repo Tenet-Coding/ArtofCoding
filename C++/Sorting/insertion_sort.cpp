@@ -38,7 +38,7 @@ int main()
     {
         cin >> array[i];
     }
-    selectionsort(n, array);
+    insertionsort(n, array);
 }
 
 /* 
