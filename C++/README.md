@@ -26,3 +26,7 @@
 - [Min Max Element in BST](Binary-tree/Min_Max_Element_in_BST.cpp)
 - [Level Order Traversal](Binary-tree/Level_Order_Traversal.cpp)
 - [Depth Order Traversal](Binary-tree/Depth_Order_Traversal.cpp)
+
+## SORTING
+- [Selection sort](Sorting/selection_sort.cpp)
+- [Insertion sort](Sorting/insertion_sort.cpp)
