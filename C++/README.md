@@ -30,3 +30,5 @@
 ## SORTING
 - [Selection sort](Sorting/selection_sort.cpp)
 - [Insertion sort](Sorting/insertion_sort.cpp)
+- [bubble_sort](Sorting/bubble_sort.cpp)
+- [merge_sort](Sorting/merge_sort.cpp)
