@@ -1,7 +1,7 @@
 /*
-Given an array of intergers, and return an array of sorted array
+Given an array of integers which is unsorted, and return a sorted array
 This algorithm maintains two subarray sorted and unsorted.
-In every iteration, the minimum element of the unsorted array is moved to end or sorted array.
+In every iteration, the minimum element of the unsorted array is moved to end of sorted array.
 */
 #include <bits/stdc++.h>
 using namespace std;
