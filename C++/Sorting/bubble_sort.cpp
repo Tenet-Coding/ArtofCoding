@@ -1,3 +1,11 @@
+/*
+Given an array of integers, and return a sorted array
+Bubble sort is a sorting algorithm. 
+This is comparison-based algorithm that works by comparing each pair of adjacent elements.
+And the elements are swapped, if they are in wrong order.
+The algorithm is suitable for small data sets.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
