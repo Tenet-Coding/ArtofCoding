@@ -1,3 +1,11 @@
+/*
+Given an array of integers, and return a sorted array
+Merge Sort is a most popular sorting algorithm based on Divide and Conquer algorithm.
+we divide array recursively into two havles, until each sub array contains single element.
+then we merge all sub array that results in sorted array.
+Time Complexity: O(NlogN)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
