@@ -1,3 +1,10 @@
+/*
+Given an array of integers, and return a sorted array.
+Insertion sort is a sorting algorithm which is less effiecient compared to other sorting algorithms like heap sort, merge sort.
+It is a stable sorting algorithm. The idea is similar to sorting playing cards.
+we insert each element onto its proper index in the array.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
