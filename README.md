@@ -58,8 +58,8 @@ Make sure your code works before submitting it :D
 
 <table><tr><td align="center"><a href="https://github.com/soumik2012"><img src="https://avatars.githubusercontent.com/u/66599363?v=4" width="100px;" alt="Soumik Kumar Baithalu "/><br /><sub><b>Soumik Kumar Baithalu</b></sub></a><br /><a href="#maintenance-soumik2012" title="Maintenance">🚧</a></td><td align="center"><a href="https://github.com/Harshil-Jani"><img src="https://avatars.githubusercontent.com/u/79367883?v=4" width="100px;" alt="Harshil Jani"/><br /><sub><b>Harshil Jani</b></sub></a><br /><a href="#maintance-Harshil-Jani" title="Maintenance">🚧</a></tr></table>
 
-**Maintainers** review and accept proposed changes
-**Reviewers** check proposed changes before they go to the Maintainers
+**Maintainers** review and accept proposed changes **Reviewers** check proposed
+changes before they go to the Maintainers
 
 ## Code of Conduct
 
