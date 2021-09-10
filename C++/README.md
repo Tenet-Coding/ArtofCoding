@@ -27,8 +27,16 @@
 - [Level Order Traversal](Binary-tree/Level_Order_Traversal.cpp)
 - [Depth Order Traversal](Binary-tree/Depth_Order_Traversal.cpp)
 
-## SORTING
+## Sorting
 - [Selection sort](Sorting/selection_sort.cpp)
 - [Insertion sort](Sorting/insertion_sort.cpp)
 - [Bubble sort](Sorting/bubble_sort.cpp)
 - [Merge sort](Sorting/merge_sort.cpp)
+
+## Searching
+- [Linear Search (Iterative)](Searching/Linear_Search.cpp)
+- [Linear Search (Recursive)](Searching/Linear_Search_Recursive.cpp)
+- [Binary Search (Iterative)](Searching/Binary_Search_Iterative.cpp)
+- [Binary Search (Recursive)](Searching/Binary_Search_Recussive.cpp)
+- [Linked List Searching](Searching/SubList_Search.cpp)
+- [SubString Searching](Searching/SubString_Search.cpp)
