@@ -5,8 +5,7 @@ In the Binary Search for a sorted array we half the array size at each step and 
 #include<algorithm>
 using namespace std;
 
-int binary_search_rec(int a[], int n, int k, int l, int r){
-    
+int binary_search_rec(int a[], int n, int k, int l, int r){ 
     int mid = (l+r)/2;
     if(a[mid]==k){
         return mid+1;
@@ -15,8 +14,7 @@ int binary_search_rec(int a[], int n, int k, int l, int r){
         return binary_search_rec(a,n,k,mid+1,r);
     }else{
         return binary_search_rec(a,n,k,l,mid-1);
-    }
-    
+    }   
 }
 
 int main(){
