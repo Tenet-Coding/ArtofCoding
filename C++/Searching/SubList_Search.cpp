@@ -8,8 +8,8 @@ Keep repeating untill you reach last node. If first list becomes NULL then list 
 #include<iostream>
 using namespace std;
 
-class Node{
-    public:
+class Node {
+public:
     int data;
     Node* next;
 };
@@ -17,77 +17,77 @@ class Node{
 Node *a;
 Node *b;
 
-bool search_list(){
+bool search_list() {
     Node* ptr1 = a;
     Node* ptr2 = b;
-    if(a==NULL && b==NULL){
+    if(a==NULL && b==NULL) {
         return true;
     }
-    if(a==NULL || b==NULL){
+    if(a==NULL || b==NULL) {
         return false;
     }
-   
-   while(b!=NULL){
-       ptr2 = b;
-       while(ptr1!=NULL){
-           if(b==NULL){
-               return false;
-           }else if(ptr1->data == ptr2->data){
-               ptr1 = ptr1->next;
-               ptr2 = ptr2->next;
-           }else{
-               break;
-           }
-       }
-       if(ptr1==NULL){
-           return true; 
-       }
-       ptr1 = a;
-       b = b->next;
-   }
-   return false;
+
+    while(b!=NULL) {
+        ptr2 = b;
+        while(ptr1!=NULL) {
+            if(b==NULL) {
+                return false;
+            } else if(ptr1->data == ptr2->data) {
+                ptr1 = ptr1->next;
+                ptr2 = ptr2->next;
+            } else {
+                break;
+            }
+        }
+        if(ptr1==NULL) {
+            return true;
+        }
+        ptr1 = a;
+        b = b->next;
+    }
+    return false;
 }
 
-void Insert_a(int data){
+void Insert_a(int data) {
     Node *temp = new Node();
     temp->next = a;
     temp->data = data;
     a = temp;
 }
 
-void Insert_b(int data){
+void Insert_b(int data) {
     Node *temp = new Node();
     temp->next = b;
     temp->data = data;
     b= temp;
 }
 
-void Print_a(){
+void Print_a() {
     Node* n = new Node();
     n = a;
-    while(n!=NULL){
+    while(n!=NULL) {
         std::cout<<n->data<<" ";
         n = n->next;
     }
     std::cout<<endl;
 }
 
-void Print_b(){
+void Print_b() {
     Node* n = new Node();
     n = b;
-    while(n!=NULL){
+    while(n!=NULL) {
         std::cout<<n->data<<" ";
         n = n->next;
     }
     std::cout<<endl;
 }
 
-int main(){
+int main() {
     a = NULL, b = NULL ;
     int n;
     std::cout<<"Enter the Number of Elements to be inserted in first List : ";
     std::cin>>n;
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++) {
         int data;
         std::cin>>data;
         Insert_a(data);
@@ -97,16 +97,16 @@ int main(){
     std::cout<<"Enter the number of elements in Search List : ";
     std::cin>>m;
 
-    for(int i=0; i<m; i++){
+    for(int i=0; i<m; i++) {
         int data;
         std::cin>>data;
         Insert_b(data);
     }
     //Print_b();
-    
-    if(search_list()){
+
+    if(search_list()) {
         cout<<"List Found \n";
-    }else{
+    } else {
         cout<<"List Not Found\n";
     }
 }
