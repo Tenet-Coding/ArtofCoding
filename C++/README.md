@@ -9,10 +9,12 @@
 - [Reverse Linked List](Linked-List/Reverse_Linked_LIst.cpp)
 
 ## Queue
+
 - [Queue by Array](Queue/Queue_by_Array.cpp)
 - [Queue by LinkedList](Queue/Queue_by_LinkedList.cpp)
 
 ## Stack
+
 - [Balanced Brackets](Stack/Balanced_Brackets.cpp)
 - [Reverse LinkedLists by Stack](Stack/Reverse_LinkedLists_by_Stack.cpp)
 - [Reverse String by Stack](Stack/Reverse_String_by_Stack.cpp)
@@ -20,6 +22,7 @@
 - [Stack by Linked List](Stack/Stack_by_Linked_List.cpp)
 
 ## Binary Tree
+
 - [Binary Search Tree](Binary-tree/Binary_Search_Tree.cpp)
 - [Creating Binary Tree](Binary-tree/Creating_Binary_Tree.cpp)
 - [Height of BST](Binary-tree/Height_of_BST.cpp)
@@ -28,12 +31,14 @@
 - [Depth Order Traversal](Binary-tree/Depth_Order_Traversal.cpp)
 
 ## Sorting
+
 - [Selection sort](Sorting/selection_sort.cpp)
 - [Insertion sort](Sorting/insertion_sort.cpp)
 - [Bubble sort](Sorting/bubble_sort.cpp)
 - [Merge sort](Sorting/merge_sort.cpp)
 
 ## Searching
+
 - [Linear Search (Iterative)](Searching/Linear_Search.cpp)
 - [Linear Search (Recursive)](Searching/Linear_Search_Recursive.cpp)
 - [Binary Search (Iterative)](Searching/Binary_Search_Iterative.cpp)
@@ -41,7 +46,8 @@
 - [Linked List Searching](Searching/SubList_Search.cpp)
 - [SubString Searching](Searching/SubString_Search.cpp)
 
-## Recursion 
+## Recursion
+
 - [Reverse String](Recursion/String_Reverse.cpp)
 - [Check Palindrome](Recursion/Palindrome.cpp)
 - [Sum of N natural numbers](Recursion/Sum_of_Natural_Numbers.cpp)
