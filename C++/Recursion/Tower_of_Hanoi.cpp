@@ -5,8 +5,8 @@ The Approach to solving this problem would be firstly a base case wherein you wo
 #include<bits/stdc++.h>
 using namespace std;
 
-void tower_of_Hanoi(int n,char from, char to, char extra){
-    if(n==1){
+void tower_of_Hanoi(int n,char from, char to, char extra) {
+    if(n==1) {
         std::cout<<"Move from "<<from<<" to "<<to<<"\n";
         return;
     }
@@ -15,7 +15,7 @@ void tower_of_Hanoi(int n,char from, char to, char extra){
     tower_of_Hanoi(n-1,extra,to,from);
 }
 
-int main(){
+int main() {
     int n;
     std::cin>>n;
     tower_of_Hanoi(n,'A','B','C');
@@ -24,7 +24,7 @@ int main(){
 Time Complexity : O(2^n) // Total Steps : 2^n - 1
 Sample Input :
     3
-Sample Output : 
+Sample Output :
     Move from A to B
     Move from A to C
     Move from B to C

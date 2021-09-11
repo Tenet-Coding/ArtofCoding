@@ -4,23 +4,23 @@ It is a very basic program that reverses a string recursively. The base case wou
 #include<bits/stdc++.h>
 using namespace std;
 
-void reverse(string a){
-    if(a.length()==0){
+void reverse(string a) {
+    if(a.length()==0) {
         return;
     }
     reverse(a.substr(1));
     std::cout<<a[0];
 }
 
-int main(){
+int main() {
     string a;
     std::cin>>a;
     reverse(a);
 }
 /*
 Time Complexity : O(N)
-Sample Input : 
+Sample Input :
     debian
-Sample Output : 
+Sample Output :
     anibed
 */
