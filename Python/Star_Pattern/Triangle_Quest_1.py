@@ -8,4 +8,4 @@ You are given a positive integer N. Print a numerical triangle of height N - 1 l
 
 """
 for i in range(1, int(input()) + 1):
-    print((10 ** i * i) // 9)
+    print((10**i * i) // 9)
