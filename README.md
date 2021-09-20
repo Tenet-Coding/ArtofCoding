@@ -16,8 +16,8 @@ Our content is divided by programming language. Please create an issue if you
 wish to add code in a language that we don't currently have here. **Do not
 create folders in your submissions, unless specifically told to do so.**
 
-- [Python](/Python/)
-- [C++](/C++/)
+- [Python](/Python/README.md)
+- [C++](/C++/README.md)
 
 # Contributing Guidelines
 
