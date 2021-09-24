@@ -17,5 +17,4 @@ def isPalindrome(self, s: str) -> bool:
                 i+=1
         if(flag==1):
             return False
-        else:
-            return True
+        return True
