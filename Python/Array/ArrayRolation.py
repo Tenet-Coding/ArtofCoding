@@ -1,4 +1,4 @@
-def rotations0farr(a):
+def rotations0farr(n):
     first_part = n[2:]
     Arr1 = first_part.append(n[0])
     Arr2 = first_part.append(n[1])
