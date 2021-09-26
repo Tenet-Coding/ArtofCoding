@@ -78,7 +78,7 @@ int main(){
 }
 
 
-/**
+/*
 Time complexity : O(n+m) + O(n*x)
 for dfs is O(n+m) , where n is number of nodes in the graph (number of towers)
 and m is total number of edges in the graph (number of wires)
@@ -130,4 +130,4 @@ connections[ ][ ] = {{0, 1},
 
 Output:
 4
-**/
+*/
