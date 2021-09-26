@@ -54,3 +54,7 @@
 - [Fibbonaci Sequence](Recursion/Fibbonaci.cpp)
 - [Convert Decimal to Binary](Recursion/Dec_to_Bin.cpp)
 - [Tower of Hanoi](Recursion/Tower_of_Hanoi.cpp)
+
+## Dynamic Programming
+
+- [Next Generation Tower](Dynamic-Programming/NextGenTowerProblem.cpp)
