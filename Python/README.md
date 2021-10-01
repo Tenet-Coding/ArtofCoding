@@ -8,6 +8,7 @@
 ## Competitive Programming
 
 - [Climbing the leaderboard ](Cp/climbing-the-leaderboard.py)
+- [Rat Problem](Cp/Rat_Problem.py)
 
 ## Dynamic Programming
 
