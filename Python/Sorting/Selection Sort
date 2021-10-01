@@ -1,0 +1,55 @@
+'''
+Sorting any sequence means to arrange the elements of that sequence according to some specific criterion.
+for example:
+--> Assending 
+--> Desending
+
+Selection Sort:
+
+Idea: 
+The selection sort algorithm sorts an array by repeatedly finding the minimum element from unsorted part and swap it with beginning element. 
+The algorithm maintains two subarrays in a given array.
+-->The  sorted subarray. (Left part)
+-->Remaining  unsorted subarray . (Right part)
+
+In every iteration of selection sort, the minimum element from the unsorted subarray is picked and moved to the sorted subarray.
+
+'''
+
+
+Arr = [34, 5, 19, 2, 71,45,55]
+for i in range(len(Arr)):
+
+    min_idx = i
+    for j in range(i+1, len(Arr)):
+        if Arr[min_idx] > Arr[j]:
+            min_idx = j 
+    Arr[i], Arr[min_idx] = Arr[min_idx], Arr[i]  #swaping the min element with first element
+
+print ("Resultant array")
+for i in range(len(Arr)):
+    print(Arr[i])
+
+
+'''
+Time complexity: o(n^2)
+Auxiliary Space: O(1) 
+In-place and not-stable
+
+Input: 
+An array [34, 5, 19, 2, 71,45,55]
+
+Output: 
+Resultant array
+2
+5
+19
+34
+45
+55
+71
+
+Note: Python use TIM sort for general purpose of sorting.
+Read more about TIM sort (https://www.geeksforgeeks.org/timsort/)
+
+'''
