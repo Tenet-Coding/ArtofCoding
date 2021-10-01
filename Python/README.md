@@ -8,6 +8,9 @@
 ## Competitive Programming
 
 - [Climbing the leaderboard ](Cp/climbing-the-leaderboard.py)
+- [EVENDIFF](Cp/EVENDIFF.py)
+- [INTRVS](Cp/INTRVS.py)
+- [SUMPOS](Cp/SUMPOS.py)
 
 ## Dynamic Programming
 
@@ -35,6 +38,10 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+
+## Sorting
+- [Insertion Sort](Sorting/Insertion_Sort.py)
+- [Selection Sort](Sorting/Selection_Sort)
 
 ## Star Patterns
 
