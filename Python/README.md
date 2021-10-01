@@ -1,14 +1,15 @@
 # Codes in the Python language
 
-## Array 
+## Array
 
 - [Array Rotation](Array/ArrayRolation.py)
 - [Merge Interval](Array/merge_interval.py)
 
 ## Competitive Programming
+
 - [Climbing the leaderboard ](Cp/climbing-the-leaderboard.py)
 - [Rat Problem](Cp/Rat_Problem.py)
- 
+
 ## Dynamic Programming
 
 - [Coin Change Problem](dp/CoinChange.py)
@@ -35,5 +36,16 @@
 - [Maximum Profit](dp/Maximum_Profit.py)
 - [Tiling Problem 2xN](dp/tiling_problem_2xN.py)
 - [Catalan Number](dp/Catalan_DP.py)
+
+## Star Patterns
+
+- [Number Pattern 1 ](Star_Pattern/Number_Pattern1.py)
+- [Pascal tringle](Star_Pattern/Pascal_tringle.py)
+- [Star Pattern 1](Star_Pattern/Star_Pattern1.py)
+- [Star Pattern 2](Star_Pattern/Star_Pattern2.py)
+- [Star Pattern 3](Star_Pattern/Star_Pattern3.py)
+- [Star Pattern 4](Star_Pattern/Star_Pattern4.py)
+- [Triangle_Quest_1](Star_Pattern/Triangle_Quest_1.py)
+- [Triangle_Quest_2](Star_Pattern/Triangle_Quest_2.py)
 
 ## [Coding Template for Contribution](Code_Template.md)
