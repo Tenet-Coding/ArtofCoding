@@ -19,7 +19,6 @@ In every iteration of selection sort, the minimum element from the unsorted suba
 
 Arr = [34, 5, 19, 2, 71,45,55]
 for i in range(len(Arr)):
-
     min_idx = i
     for j in range(i+1, len(Arr)):
         if Arr[min_idx] > Arr[j]:
@@ -53,3 +52,4 @@ Note: Python use TIM sort for general purpose of sorting.
 Read more about TIM sort (https://www.geeksforgeeks.org/timsort/)
 
 '''
+
