@@ -10,6 +10,32 @@
 - [Climbing the leaderboard ](Cp/climbing-the-leaderboard.py)
 - [Rat Problem](Cp/Rat_Problem.py) 
 
+
+## Graphs
+
+- [Breadth First Search](graphs/BFS.py)
+- [Depth of Tree](graphs/Depth_Of_Tree.py)
+- [Height of Tree](graphs/height_of_given_tree.py)
+- [Kruskal's Algorithm](graphs/Kruskal_Algorithm.py)
+- [Prim's Algorithm](graphs/Prim_Algorithm.py)
+- [Prim's Algorithm - Dynamic](graphs/Prims_Algo_dynamic.py)
+- [Dijkstra's Algorithm](graphs/dijkstras_algorithm.py)
+- [Topological Sort/Ordering](graphs/Topological_Sort.py)
+- [Hamiltonian Path](graphs/Hamiltonian_Path.py)
+- [Articulation Point](graphs/Articulation_Point.py)
+- [Connected Components](graphs/Connected_Components.py)
+- [Strongly Connected Components - Kosaraju's Algorithm](graphs/SCC_Kosaraju.py)
+- [Strongly Connected Components - Tarjan's Algorithm](graphs/SCC_Tarjan.py)
+- [Bipartite Graph](graphs/Bipartite_Graph.py)
+- [Directed Acyclic Graph](graphs/Directed_Acyclic_Graph.py)
+- [Detect Negative Cycle](graphs/Negative_Cycle.py)
+- [Depth First Search](graphs/DFS.py)
+- [Bellman Ford](graphs/Bellman_Ford.py)
+- [Rotten Oranges](graphs/Rotten_Oranges.py)
+- [Top view of binary tree](graphs/top_view_binary_tree.py)
+- [Warshall Algorithm](graphs/warshall.py)
+
+
 ## Mathematics
 
 - [Area](math/Area.py)
