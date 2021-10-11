@@ -117,5 +117,3 @@ for i in range(1,6):    #ajdancency matrix of diiferent path lenghts
 g.reachablity()         #reachablity matrix
 g.in_degree()           #in degree matrix
 g.out_degree()          #out degree matrix
-
-
