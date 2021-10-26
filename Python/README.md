@@ -11,8 +11,8 @@
 - [EVENDIFF](Cp/EVENDIFF.py)
 - [INTRVS](Cp/INTRVS.py)
 - [SUMPOS](Cp/SUMPOS.py)
-- [Rat Problem](Cp/Rat_Problem.py) 
-
+- [Rat Problem](Cp/Rat_Problem.py)
+- [3Sum](Cp/3Sum.py)
 
 ## Graphs
 
@@ -37,7 +37,6 @@
 - [Rotten Oranges](graphs/Rotten_Oranges.py)
 - [Top view of binary tree](graphs/top_view_binary_tree.py)
 - [Warshall Algorithm](graphs/warshall.py)
-
 
 ## Mathematics
 
@@ -95,9 +94,7 @@
 - [Sieve of Eratosthenes](math/Sieve-of-eratosthenes.py)
 - [Pronic Number](math/Pronic_numbers.py)
 - [Positive Decimal to Binary](math/positive_decimal_to_binary.py)
-- [Squares in N*N Chessboard](math/Squares_in_2n_Chessboard.py) 
-
-
+- [Squares in N\*N Chessboard](math/Squares_in_2n_Chessboard.py)
 
 ## Dynamic Programming
 
@@ -127,6 +124,7 @@
 - [Catalan Number](dp/Catalan_DP.py)
 
 ## Sorting
+
 - [Insertion Sort](Sorting/Insertion_Sort.py)
 - [Selection Sort](Sorting/Selection_Sort)
 
