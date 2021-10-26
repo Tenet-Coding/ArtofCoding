@@ -13,6 +13,7 @@
 - [SUMPOS](Cp/SUMPOS.py)
 - [Rat Problem](Cp/Rat_Problem.py)
 - [Candy](Cp/Candy.py)
+- [3Sum](Cp/3Sum.py)
 
 ## Graphs
 
