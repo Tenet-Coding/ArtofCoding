@@ -12,7 +12,7 @@
 - [INTRVS](Cp/INTRVS.py)
 - [SUMPOS](Cp/SUMPOS.py)
 - [Rat Problem](Cp/Rat_Problem.py)
-- [3Sum](Cp/3Sum.py)
+- [4Sum](Cp/4Sum.py)
 
 ## Graphs
 
