@@ -13,9 +13,11 @@
 - [SUMPOS](Cp/SUMPOS.py)
 - [Rat Problem](Cp/Rat_Problem.py)
 - [4Sum](Cp/4Sum.py)
+- [Longest Happy Prefix](Cp/LongestHappyPrefix.py)
 - [Single Number](Cp/SingleNumber.py)
 - [Candy](Cp/Candy.py)
 - [3Sum](Cp/3Sum.py)
+
 
 
 ## Graphs
