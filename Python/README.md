@@ -17,7 +17,7 @@
 - [Single Number](Cp/SingleNumber.py)
 - [Candy](Cp/Candy.py)
 - [3Sum](Cp/3Sum.py)
-
+- [Valid Palindrome](Cp/valid_palindrome.py)
 
 
 ## Graphs
