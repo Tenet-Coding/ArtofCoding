@@ -2,9 +2,9 @@
 """
 Title: Valid Palindrome
 
-A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and
-removing all non-alphanumeric characters, it reads the same forward and backward.
-Alphanumeric characters include letters and numbers.
+A phrase is a palindrome if, after converting all uppercase letters into lowercase
+letters and removing all non-alphanumeric characters, it reads the same forward 
+and backward. Alphanumeric characters include letters and numbers.
 
 Task: Given a string s, return true if it is a palindrome, or false otherwise.
 
@@ -33,24 +33,18 @@ import unittest
 
 # Time Complexity:  O(n)
 def valid_palindrome(s: str) -> bool:
-    """
-    Returns True if the input string s is a valid palindrome,
-    or otherwise False.
-    """
+    """Returns True if s is a valid palindrome, or otherwise False."""
+    
     s = s.lower().replace(' ', '')
     s = s.translate(s.maketrans('', '', string.punctuation))
     return s == s[::-1]
 
 
 class TestPalindrome(unittest.TestCase):
-    """
-    Unittest to prove the correctness of the valid_palindrome function.
-    """
+    """Unittest to prove the correctness of the valid_palindrome function."""
 
     def setUp(self) -> None:
-        """
-        Setup test_samples for the unittest. Each tuple has a "sample" and "expected" value.
-        """
+        """Setup test_samples for the unittest."""
         self.test_samples = (("A man, a plan, a canal: Panama", True),
                              ("", True),
                              ("Murder for a jar of red rum.", True),
@@ -67,10 +61,7 @@ class TestPalindrome(unittest.TestCase):
                              ("Race care", False),)
 
     def test_valid_palindrome(self):
-        """
-        A for loop will pass each "sample" from test_samples to the valid_palindrome() function.
-        The test passes if the function returns the "expected" result.
-        """
+        """Sample" is passed to function. Test passes if the function returns the "expected" result."""
         for sample, expected in self.test_samples:
             self.assertEqual(valid_palindrome(sample), expected)
 
