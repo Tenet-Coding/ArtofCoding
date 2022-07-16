@@ -62,8 +62,10 @@ class TestPalindrome(unittest.TestCase):
         )
 
     def test_valid_palindrome(self):
-        """Sample is passed to function. Test passes if the function returns 
-        the "expected" result."""
+        """
+        Sample is passed to function. Test passes if the function returns 
+        the "expected" result.
+        """
         for sample, expected in self.test_samples:
             self.assertEqual(valid_palindrome(sample), expected)
 
