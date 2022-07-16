@@ -34,7 +34,6 @@ import unittest
 # Time Complexity:  O(n)
 def valid_palindrome(s: str) -> bool:
     """Returns True if s is a valid palindrome, or otherwise False."""
-
     s = s.lower().replace(" ", "")
     s = s.translate(s.maketrans("", "", string.punctuation))
     return s == s[::-1]
@@ -63,7 +62,8 @@ class TestPalindrome(unittest.TestCase):
         )
 
     def test_valid_palindrome(self):
-        """Sample is passed to function. Test passes if the function returns the "expected" result."""
+        """Sample is passed to function. Test passes if the function returns 
+        the "expected" result."""
         for sample, expected in self.test_samples:
             self.assertEqual(valid_palindrome(sample), expected)
 
