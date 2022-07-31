@@ -29,7 +29,7 @@ create folders in your submissions, unless specifically told to do so.**
 - In case you want to submit an improvement to an existing algorithm, we prefer
   that you create an issue, describing in details your improvement. This will
   help others to analyze your contribution. You can use the
-  [templates](.github/ISSUE_TEMPLATE/algorithm-ds-proposal.md) that we have
+  [templates](.github/ISSUE_TEMPLATE/feature-request---.md) that we have
   provided :)
 - If you have anything else in mind, create an issue and please wait for it to
   be assigned to you. You can then start working on it and create a PR.
