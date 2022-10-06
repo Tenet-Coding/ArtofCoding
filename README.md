@@ -63,7 +63,7 @@ changes before they go to the Maintainers
 
 ## Code of Conduct
 
-You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md)
+You can find our Code of Conduct 📑  [here](/CODE_OF_CONDUCT.md)
 
 ## License
 
