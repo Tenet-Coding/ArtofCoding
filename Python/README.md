@@ -1,4 +1,4 @@
-# Codes in the Python language
+# Codes in the Python language 🐍
 
 ## Array
 
