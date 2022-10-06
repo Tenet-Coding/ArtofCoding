@@ -8,7 +8,7 @@
 - [Print by Recurrsion](Linked-List/Print_by_Recurrsion.cpp)
 - [Reverse Linked List](Linked-List/Reverse_Linked_LIst.cpp)
 
-## Queue
+## Queue 🎳
 
 - [Queue by Array](Queue/Queue_by_Array.cpp)
 - [Queue by LinkedList](Queue/Queue_by_LinkedList.cpp)
