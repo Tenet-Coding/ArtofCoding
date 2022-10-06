@@ -1,6 +1,6 @@
 # Codes in the C++ language
 
-## Linked-List
+## Linked-List 🔗
 
 - [Creating List and Traversing it](Linked-List/Creating_List_and_Traversing_it.cpp)
 - [Delete Node At Nth pos](Linked-List/Delete_Node_At_Nth_pos.cpp)
