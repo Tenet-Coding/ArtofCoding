@@ -14,12 +14,12 @@ Source: https://en.wikipedia.org/wiki/Binary_search_algorithm
 */
 
 
-function binarySearch(arr = [], key) {
+function binarySearch(arr, key) {
   let low = 0;
   let high = arr.length - 1;
 
   while(low <= high) {
-    let mid = low + Math.floor((high - low)/2);
+    const mid = low + Math.floor((high - low)/2);
 
     if(key === arr[mid]){
       return mid;
@@ -36,15 +36,11 @@ function binarySearch(arr = [], key) {
 }
 
 
-/*Driver code*/
+/*
+INPUT
+arr = [4, 6, 7, 9, 11, 13, 16, 18, 20];
+key = 13;
 
-const sortedArray = [4, 6, 7, 9, 11, 13, 16, 18, 20];
-const elementToSearch = 13;
-
-const result = binarySearch(sortedArray, elementToSearch);
-
-console.log("Input:");
-console.log("Array:", sortedArray);
-console.log("Element to find:", elementToSearch);
-console.log("Output:", result);
-console.log(`Explanation: Index of ${elementToSearch} in array is ${result}.`);
+OUTPUT
+index = 5
+*/
