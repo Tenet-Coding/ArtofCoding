@@ -35,6 +35,11 @@ function binarySearch(arr, key) {
   return -1;
 }
 
+//Driver Code
+const arr = [4, 6, 7, 9, 11, 13, 16, 18, 20];
+const key = 13;
+binarySearch(arr, key);
+
 
 /*
 INPUT

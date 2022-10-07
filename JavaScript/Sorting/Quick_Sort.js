@@ -50,6 +50,10 @@ function quickSort(originalArr) {
   return sortedLeftArr.concat(centerArr, sortedRightArr);
 }
 
+// Driver Code
+const originalArr = [9, 2, 5, 7, 1];
+quiskSort(originalArr);
+
 /*
 INPUT
 originalArr = [9, 2, 5, 7, 1];
