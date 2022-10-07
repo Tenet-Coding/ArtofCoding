@@ -52,7 +52,7 @@ function quickSort(originalArr) {
 
 // Driver Code
 const originalArr = [9, 2, 5, 7, 1];
-quiskSort(originalArr);
+quickSort(originalArr);
 
 /*
 INPUT
